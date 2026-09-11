@@ -78,13 +78,32 @@ classify the previous assistant response, then act.
 
 ## install
 
+### quick install
+
+```bash
+# bash / macOS / Linux
+curl -fsSL https://raw.githubusercontent.com/MostaDaoud/meowmeow/main/install.sh | bash
+
+# powershell / Windows
+irm https://raw.githubusercontent.com/MostaDaoud/meowmeow/main/install.ps1 | iex
+```
+
+### antigravity / gemini cli
+
+install as an Agent Skill in your Antigravity config:
+
+```bash
+mkdir -p ~/.gemini/config/skills/meow
+cp SKILL.md ~/.gemini/config/skills/meow/SKILL.md
+```
+
 ### claude code
 
 current Claude Code supports user-invoked skills. install `meow` as a skill:
 
 ```bash
 mkdir -p ~/.claude/skills/meow
-cp meow.md ~/.claude/skills/meow/SKILL.md
+cp SKILL.md ~/.claude/skills/meow/SKILL.md
 ```
 
 then type `/meow`.
@@ -95,6 +114,7 @@ legacy custom command layout:
 mkdir -p ~/.claude/commands
 cp meow.md ~/.claude/commands/meow.md
 ```
+
 
 ### any other agent
 
