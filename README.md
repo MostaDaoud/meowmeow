@@ -60,9 +60,11 @@ the user did not bring evidence. they brought skepticism. `/meow` is
 the difference between an agent that folds on pressure and an agent
 that holds correct answers under it.
 
-## the command
+## the command & operating discipline
 
-[`meow.md`](meow.md) is the ready-to-use Claude Code command/skill.
+[`ai-discipline.md`](ai-discipline.md) is the proactive operating manual: 8 core disciplines enforcing equal-partner disposition, grounding before mutation, mandatory verification, and anti-sycophancy.
+
+[`SKILL.md`](SKILL.md) & [`meow.md`](meow.md) are the ready-to-use Agent Skills and Claude Code slash command.
 
 [`meow-core.md`](meow-core.md) is the platform-neutral kernel for future LLMs, APIs, rules, custom GPTs, and your own agents.
 
@@ -75,6 +77,7 @@ classify the previous assistant response, then act.
 <p align="center">
   <img src="cats/animated/12-formal-cat.svg" alt="cat sitting formally with a swishing tail" width="110">
 </p>
+
 
 ## install
 

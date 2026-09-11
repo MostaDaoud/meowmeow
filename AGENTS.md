@@ -30,6 +30,9 @@ because the conversation already contains the meaning.
 
 ## reference
 
+- [`ai-discipline.md`](ai-discipline.md): full operational discipline manual.
 - [`meow-core.md`](meow-core.md): platform-neutral kernel.
+- [`SKILL.md`](SKILL.md): universal Agent Skills standard definition.
 - [`meow.md`](meow.md): Claude Code skill or legacy command.
 - [`README.md`](README.md): full pitch and port map.
+
